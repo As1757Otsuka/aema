@@ -1,0 +1,38 @@
+{
+  "variantName": "hero-conditions",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-06-10T12:37:30.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.rexulti.com",
+    "originPage": "REXULTI consumer homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "condition-selector-hero",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "background image + heading + subheading + 2 condition CTAs",
+    "buttonCount": 2,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage / landing page heroes with a full-bleed lifestyle background image",
+      "heroes with a dark overlay panel containing heading and selector CTAs",
+      "condition/option selector intros"
+    ],
+    "notSuitableFor": [
+      "text-only heroes with no background image",
+      "light-background minimal heroes"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-06-10T12:37:30.000Z"
+  }
+}
