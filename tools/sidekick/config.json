@@ -1,4 +1,12 @@
 {
+  "project": "aema",
+  "owner": "As1757Otsuka",
+  "repo": "aema",
+  "ref": "main",
+  "host": "author-p172753-e1855059.adobeaemcloud.com",
+  "contentSourceUrl": "https://author-p172753-e1855059.adobeaemcloud.com/bin/franklin.delivery/As1757Otsuka/aema/main",
+  "contentSourceType": "markup",
+  "editUrlLabel": "AEM",
   "plugins": [
     {
       "id": "aemedit",
