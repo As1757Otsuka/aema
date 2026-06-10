@@ -1,0 +1,27 @@
+/* Brand design tokens extracted from https://www.rexulti.com/ */
+:root {
+  /* fonts — source uses proprietary Monotype Helvetica Neue web fonts;
+     mapped to a Helvetica Neue system stack */
+  --body-font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+  --heading-font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+
+  /* colors */
+  --background-color: #fff;
+  --text-color: #3d3d3d;
+  --body-text-color: #525252;
+  --heading-color: #144633;
+  --link-color: #497527;
+  --link-hover-color: #385e1b;
+
+  /* spacing */
+  --content-max-width: 1140px;
+  --nav-height: 62px;
+
+  /* heading sizes (desktop) */
+  --heading-size-xxl: 40px;
+  --heading-size-xl: 28px;
+  --heading-size-l: 20px;
+  --heading-size-m: 20px;
+  --heading-size-s: 18px;
+  --heading-size-xs: 16px;
+}
