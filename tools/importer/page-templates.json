@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "projectType": "xwalk"
+  },
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.rexulti.com"
+      ],
+      "description": "Rexulti brand homepage with hero, informational content sections, and navigation",
+      "blocks": [
+        {
+          "name": "hero-conditions",
+          "instances": [
+            "#paragraph-2656",
+            ".paragraph__hero-general"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1-hero",
+          "name": "Hero - Could REXULTI help?",
+          "selector": [
+            "#paragraph-2656",
+            ".paragraph__hero-general"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-conditions"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2-isi",
+          "name": "Important Safety Information and Indications",
+          "selector": [
+            "#inline-isi-wrapper",
+            ".general-isi-section"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".isi-content-wrapper"
+          ]
+        }
+      ]
+    }
+  ]
+}
